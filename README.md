@@ -78,3 +78,10 @@ class APVModule
 compare_apvs(new_apv, baseline_apv, tolerance=0.05)
 
   Compares a new APV with a baseline APV and checks for stability within a given tolerance.
+
+  ## License
+
+This project is licensed under the **GNU Affero General Public License v3.0**. 
+
+You are free to copy, modify, and distribute this software under the terms of the AGPL license. See the [LICENSE](./LICENSE) file for more information or visit [GNU’s AGPL page](https://www.gnu.org/licenses/agpl-3.0.html) for details.
+
