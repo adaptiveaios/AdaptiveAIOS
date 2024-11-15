@@ -1,36 +1,64 @@
-APV Module for Activation Path Tracking
-Overview
 
-The Activation Path Vector (APV) Module is designed to enhance interpretability and stability monitoring of neural networks, including Large Language Models (LLMs) and CNNs. By tracking activation patterns at selected layers, this module summarizes each layer’s activation into a compact vector (APV). The APV provides a high-level overview of the model's internal pathways, useful for monitoring stability, troubleshooting, and adaptive learning.
-Features
+# **APV Module for Activation Path Tracking**
 
-  APV Calculation: Summarizes activation patterns from tracked layers into a concise APV, capturing key statistics.
-  Model Stability Check: Compares new APVs against baseline APVs to ensure model consistency over time.
-  Adaptive Training: Supports reinforcement learning by allowing deviations from successful APV pathways to guide training.
+The **Activation Path Vector (APV) Module** enhances interpretability and stability monitoring for neural networks, including models like Large Language Models (LLMs) and Convolutional Neural Networks (CNNs). By tracking activation patterns at selected layers, this module condenses each layer's activity into compact vectors called APVs. These APVs provide insights into the model's internal pathways, supporting stability checks, troubleshooting, and adaptive learning.
 
-Getting Started
-Prerequisites
+---
 
-  Python 3.8+
-  PyTorch
-  torchvision (for testing with ResNet or similar models)
+## **Key Features**
 
-Installation
+- **APV Calculation**: Summarizes activation patterns from tracked layers into concise vectors capturing key statistics like mean, variance, max, and the 75th percentile.
+- **Model Stability Check**: Compares new APVs with baseline APVs to ensure the model remains consistent.
+- **Adaptive Learning**: Allows deviations from successful APV pathways to guide reinforcement learning.
 
-Install PyTorch and torchvision:
+---
 
-pip install torch torchvision
+## **Getting Started**
 
-Example Usage
+### **Prerequisites**
 
-  Initialize the APV Module with a Model: Specify the layers you want to track.
-  Register Hooks: Hooks capture activations during the forward pass.
-  Compute APVs: Run an input through the model and get the APV.
+- **Python 3.8+**
+- **PyTorch**: Install via:
+  ```bash
+  pip install torch
+  ```
+- **TorchVision**: Install via:
+  ```bash
+  pip install torchvision
+  ```
 
-import torch
+---
+
+### **Installation**
+
+1. Clone the repository and switch to the `Apv_module_project` branch:
+   ```bash
+   git clone https://github.com/adaptiveaios/AdaptiveAIOS.git
+   cd AdaptiveAIOS
+   git checkout Apv_module_project
+   ```
+
+2. Navigate to the directory containing the APV module:
+   ```bash
+   cd APV_Module
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install torch torchvision
+   ```
+
+---
+
+## **Usage**
+
+### **1. Initialize the APV Module**
+Define the model and specify which layers to track:
+```python
 from torchvision.models import resnet18
+from apv_module import APVModule
 
-# Load the ResNet18 model for testing
+# Load a ResNet18 model
 model = resnet18(weights="ResNet18_Weights.IMAGENET1K_V1")
 
 # Specify layers to track
@@ -41,47 +69,71 @@ layers_to_track = {
     'layer4': model.layer4
 }
 
-# Initialize and set up APV module
+# Initialize the APV Module
 apv_module = APVModule(model, layers_to_track)
 apv_module.register_hooks()
+```
 
-# Run a sample input through the model to generate APV
+---
+
+### **2. Generate APVs**
+Run a forward pass to compute the APV:
+```python
+import torch
+
+# Generate a sample input
 input_data = torch.randn(1, 3, 224, 224)
-_ = model(input_data)  # Forward pass
+
+# Perform a forward pass through the model
+_ = model(input_data)
+
+# Compute and print the APV
 apv_vector = apv_module.get_apv()
 print("APV Vector:", apv_vector)
+```
 
-  Model Stability Check
+---
 
-You can compare the APV from a current input with a baseline APV to ensure stability.
+### **3. Model Stability Check**
+Compare APVs to detect deviations:
+```python
+from apv_module import compare_apvs
 
-# Define a baseline APV (previously saved or known stable APV)
+# Use the computed APV as the baseline
 baseline_apv = apv_vector
 
-# Generate a new APV and compare
+# Run the same input again
 _ = model(input_data)
 new_apv = apv_module.get_apv()
 
-# Check if the model is stable
+# Check stability
 is_stable = compare_apvs(new_apv, baseline_apv)
 print("Model stability:", "Stable" if is_stable else "Changed")
+```
 
-API Reference
-class APVModule
+---
 
-   __init__(self, model, layers_to_track): Initializes APVModule with a model and specific layers to track.
-    register_hooks(self): Registers forward hooks to capture activations.
-    compute_layer_apv(self, activation): Computes a summarized APV for a layer.
-    get_apv(self): Concatenates APVs across layers for a complete APV vector.
-    reset_activations(self): Clears stored activations between inferences.
+## **API Reference**
 
-compare_apvs(new_apv, baseline_apv, tolerance=0.05)
+### **APVModule Class**
+- **`__init__(self, model, layers_to_track)`**: Initializes the module with the specified model and layers.
+- **`register_hooks(self)`**: Registers hooks to capture activations during forward passes.
+- **`compute_layer_apv(self, activation)`**: Computes APV statistics (mean, variance, max, 75th percentile) for a layer.
+- **`get_apv(self)`**: Concatenates APVs across all tracked layers into a single vector.
+- **`reset_activations(self)`**: Clears stored activations to avoid carry-over effects.
 
-  Compares a new APV with a baseline APV and checks for stability within a given tolerance.
+### **compare_apvs Function**
+- **`compare_apvs(new_apv, baseline_apv, tolerance=0.05)`**: Compares two APVs and determines stability within a given tolerance.
 
-  ## License
+---
 
-This project is licensed under the **GNU Affero General Public License v3.0**. 
+## **Example Output**
+```text
+APV Vector: tensor([ 0.123, 0.045, 1.234, 0.567, ... ])
+Model stability: Stable
+```
 
-You are free to copy, modify, and distribute this software under the terms of the AGPL license. See the [LICENSE](./LICENSE) file for more information or visit [GNU’s AGPL page](https://www.gnu.org/licenses/agpl-3.0.html) for details.
+---
 
+## **License**
+This project is licensed under the **GNU Affero General Public License v3.0**. For more information, see the LICENSE file or visit [GNU’s AGPL page](https://www.gnu.org/licenses/agpl-3.0.html).
