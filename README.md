@@ -3,9 +3,9 @@ APV Prototype
 This module demonstrates the concept of Activation Path Vectors (APV) for improving AI model interpretability and stability. APVs trace and map activation pathways within AI models, enabling insights into how specific inputs trigger particular responses and ensuring consistency across outputs.
 Key Features
 
-    Baseline APV Collection: Generate and store APVs for random prompts to serve as a reference.
-    APV Consistency Loss: Apply a custom loss function during training to enforce stability in model responses.
-    Dynamic APV Adjustment: Adapt APV targets in real-time for evolving inputs.
+   Baseline APV Collection: Generate and store APVs for random prompts to serve as a reference.
+   APV Consistency Loss: Apply a custom loss function during training to enforce stability in model responses.
+   Dynamic APV Adjustment: Adapt APV targets in real-time for evolving inputs.
 
 Installation
 Prerequisites
@@ -55,9 +55,9 @@ Epoch 1, Prompt: Random prompt 0 with variation 0.2009, Loss: 0.0098
 
 Future Enhancements
 
-    Extend APV training to handle larger datasets and diverse input types.
-    Optimize APV calculation for speed and scalability.
-    Explore applications of APVs in reducing model hallucinations in various domains.
+   Extend APV training to handle larger datasets and diverse input types.
+   Optimize APV calculation for speed and scalability.
+   Explore applications of APVs in reducing model hallucinations in various domains.
 
 Contributing
 
