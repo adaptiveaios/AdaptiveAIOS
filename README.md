@@ -37,9 +37,9 @@ The FBCM extends these models by incorporating **recursive self-similarity, dyna
 
 The fundamental equation of the model represents cognition as a **recursive fractal system**:
 
-\[
+$$ 
 Z_{n+1} = \gamma_{RM} \tanh \left( Z_n^2 + \mu M_n + A_n \right) + \gamma_{AP} Z_n + \lambda E_n + \beta_L L_n + \sigma \xi_n
-\]
+$$ 
 
 where:
 - **\(Z_n = R_n + i A_n\)**: Combined cognitive state (
@@ -55,13 +55,13 @@ Reflective Manager \( R_n \) + Automatic Processing \( A_n \))
 
 Unlike previous models, FBCM explicitly incorporates **bidirectional feedback** between the Reflective Manager (RM) and Automatic Processing (AP):
 
-\[
+$$ 
 R_{n+1} = \gamma_{RM} \tanh \left( R_n^2 + \mu M_n + \eta A_n \right) + \beta_L L_n + \lambda E_n + \sigma \xi_n
-\]
+$$ 
 
-\[
-A_{n+1} = \gamma_{AP} A_n + \alpha_M M_n + \tanh(\Delta A_n) - \eta R_n
-\]
+$$ 
+$A_{n+1} = \gamma_{AP} A_n + \alpha_M M_n + \tanh(\Delta A_n) - \eta R_n
+$$ 
 
 These equations describe how **Reflective cognition modulates automatic responses**, forming recursive attractors in thought processes.
 
@@ -101,3 +101,5 @@ This paper presents the Fractal-Based Consciousness Model (FBCM) as a **formaliz
 ---
 
 ### **What Do You Think?**
+
+
