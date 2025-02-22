@@ -42,14 +42,14 @@ Z_{n+1} = \gamma_{RM} \tanh \left( Z_n^2 + \mu M_n + A_n \right) + \gamma_{AP} Z
 $$ 
 
 where:
-- **\(Z_n = R_n + i A_n\)**: Combined cognitive state (
+- $(Z_n = R_n + i A_n\)$: Combined cognitive state (
 Reflective Manager \( R_n \) + Automatic Processing \( A_n \))
-- **\(H_n = \frac{\log(R_n + A_n)}{\log(\Delta t)}\)**: Hurst exponent (quantifies cognitive predictability & structure)
-- **\(D_B\)**: Box-counting fractal dimension (captures phase shifts in cognition)
-- **\(S_{MSE}\)**: Multiscale entropy (measures complexity in neural states)
-- **\(\beta_L L_n\)**: Lévy-distributed cognitive jumps (accounts for trauma & insights)
-- **\(\lambda E_n\)**: External perturbations from environment or social stimuli
-- **\(\sigma \xi_n\)**: Stochastic noise component
+- $(H_n = \frac{\log(R_n + A_n)}{\log(\Delta t)}\)$: Hurst exponent (quantifies cognitive predictability & structure)
+- $(D_B\)$: Box-counting fractal dimension (captures phase shifts in cognition)
+- $(S_{MSE}\)$: Multiscale entropy (measures complexity in neural states)
+- $(\beta_L L_n\)$: Lévy-distributed cognitive jumps (accounts for trauma & insights)
+- $(\lambda E_n\)$: External perturbations from environment or social stimuli
+- $(\sigma \xi_n\)$: Stochastic noise component
 
 ### **2.2 Dynamic Feedback Mechanisms**
 
