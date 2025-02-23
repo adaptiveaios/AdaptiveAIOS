@@ -74,20 +74,7 @@ The model predicts **specific, falsifiable neural and behavioral outcomes**, mea
 
 Experimental validation will involve **EEG, fMRI, and behavioral reaction-time experiments**.
 
-
-3. Visualization of Recursive Feedback Dynamics
-
-Below is a graph representing the recursive cognitive dynamics of RM and AP over time:
-
-
-![Alt Text](https://github.com/user-attachments/assets/6120bd76-3776-4a5d-b27a-1994b6129683)
-
-This graph illustrates how the Reflective Manager (R) and Automatic Processing (A) evolve dynamically, responding to environmental inputs and internal cognitive feedback.
-
-
-
-
-4. Diagram Visualization
+3. Diagram Visualization
 
 ```mermaid
 %%{init: {'theme': 'neutral', 'themeVariables': { 'fontSize': '12px'}}}%%
@@ -135,17 +122,26 @@ Diagram Explanation:
 2. **Core Components**:  
    - **Reflective Manager (RM)** and **Automatic Processing (AP)** interact via bidirectional feedback loops.  
 3. **Fractal Metrics**:  
-   - \(D_B\) (fractal dimension), \(H\) (Hurst exponent), and \(S_{MSE}\) (multiscale entropy) quantify self-similarity and complexity.  
+   - $(D_B\)$ (fractal dimension), $(H\)$ (Hurst exponent), and $(S_{MSE}\)$ (multiscale entropy) quantify self-similarity and complexity.  
 4. **Stochastic Processes**:  
    - Lévy jumps and noise drive sudden cognitive shifts and variability.  
 5. **External Inputs**:  
-   - Environmental/social stimuli (\(E\)) modulate RM and AP.  
+   - Environmental/social stimuli $(\(E\))$ modulate RM and AP.  
 6. **Multiscale Integration**:  
    - Fractal recursion operates across neural, cognitive, and behavioral levels.  
 7. **Implications**:  
    - Applications in AI, neuropsychiatry, and adaptive systems.  
 
 This diagram captures the **recursive, fractal, and dynamic** nature of FBCM while highlighting its theoretical and empirical foundations. Let me know if you’d like to refine any elements!
+
+4. Visualization of Recursive Feedback Dynamics
+
+Below is a graph representing the recursive cognitive dynamics of RM and AP over time:
+
+
+![Alt Text](https://github.com/user-attachments/assets/6120bd76-3776-4a5d-b27a-1994b6129683)
+
+This graph illustrates how the Reflective Manager (R) and Automatic Processing (A) evolve dynamically, responding to environmental inputs and internal cognitive feedback.
 
 
 5. Conclusion & Next Steps
