@@ -74,7 +74,7 @@ The model predicts **specific, falsifiable neural and behavioral outcomes**, mea
 
 Experimental validation will involve **EEG, fMRI, and behavioral reaction-time experiments**.
 
-3. Diagram Visualization
+**3. Diagram Visualization**
 
 ```mermaid
 %%{init: {'theme': 'neutral', 'themeVariables': { 'fontSize': '12px'}}}%%
@@ -134,7 +134,7 @@ Diagram Explanation:
 
 This diagram captures the **recursive, fractal, and dynamic** nature of FBCM while highlighting its theoretical and empirical foundations. Let me know if you’d like to refine any elements!
 
-4. Visualization of Recursive Feedback Dynamics
+**4. Visualization of Recursive Feedback Dynamics**
 
 Below is a graph representing the recursive cognitive dynamics of RM and AP over time:
 
@@ -144,11 +144,11 @@ Below is a graph representing the recursive cognitive dynamics of RM and AP over
 This graph illustrates how the Reflective Manager (R) and Automatic Processing (A) evolve dynamically, responding to environmental inputs and internal cognitive feedback.
 
 
-5. Conclusion & Next Steps
+**5. Conclusion & Next Steps**
 
 This update ensures the Fractal-Based Consciousness Model (FBCM) is both theoretically robust and empirically testable by incorporating multiscale entropy, fractal complexity, and refined stochastic regulation.
 
-🚀 Next Steps:
+🚀 **Next Steps:**
 
 Test this revised formulation in numerical simulations.
 
