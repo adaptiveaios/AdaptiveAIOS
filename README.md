@@ -70,7 +70,7 @@ The model predicts **specific, falsifiable neural and behavioral outcomes**, mea
 | ----------------------------------------------------- | ---------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | **RM-AP Switching Alters Fractal Complexity**         | Hurst Exponent \(H\)         | RM-dominant: \(H 	o 0.7\) (structured cognition)  AP-dominant: \(H 	o 0.5\) (random processing)                     |
 | **Stress-Induced Lévy Jumps Disrupt Fractal Scaling** | Box-Counting Dimension (BCD) | Sharp increases in \(D_B\) indicate phase shifts in cognition.                                                        |
-| **Environmental Stress Modulates RM Re-engagement**   | Multiscale Entropy (MSE)     | High stress \( 	o \) lower entropy (rigid avoidance loops), Low stress \( 	o \) higher entropy (cognitive flexibility). |
+| **Environmental Stress Modulates RM Re-engagement**   | Multiscale Entropy (MSE)     | High stress $( 	o \)$ lower entropy (rigid avoidance loops), Low stress $( 	o \)$ higher entropy (cognitive flexibility). |
 
 Experimental validation will involve **EEG, fMRI, and behavioral reaction-time experiments**.
 
