@@ -84,7 +84,71 @@ Below is a graph representing the recursive cognitive dynamics of RM and AP over
 
 This graph illustrates how the Reflective Manager (R) and Automatic Processing (A) evolve dynamically, responding to environmental inputs and internal cognitive feedback.
 
-4. Conclusion & Next Steps
+
+
+
+4. Diagram Visualization
+
+```mermaid
+%%{init: {'theme': 'neutral', 'themeVariables': { 'fontSize': '12px'}}}%%
+flowchart TD
+    %% Philosophical Foundations
+    PF["Philosophical Foundations\n- Phenomenology\n- Process Philosophy\n- Enactivism\n- Pancomputationalism"] --> RM
+    PF --> AP
+
+    %% Core Components
+    RM["Reflective Manager (RM)\nSelf-awareness, Decision-making"] <--> AP["Automatic Processing (AP)\nHabits, Efficiency"]
+    
+    %% Fractal Metrics
+    RM --> FM["Fractal Metrics\n- D_B (Box-Counting Dimension)\n- H (Hurst Exponent)\n- S_MSE (Multiscale Entropy)"]
+    AP --> FM
+    FM --> RM
+    FM --> AP
+
+    %% Stochastic Processes & External Inputs
+    SP["Stochastic Processes\n- Lévy Jumps\n- Noise (ξ)"] --> RM
+    SP --> AP
+    EI["External Inputs (E)\nEnvironment, Social Stimuli"] --> RM
+    EI --> AP
+
+    %% Multiscale Integration
+    subgraph "Multiscale Integration"
+        direction LR
+        Neural["Neural Level\nSelf-similar activity patterns"] --> Cognitive
+        Cognitive["Cognitive Level\nRecursive feedback loops"] --> Behavioral
+        Behavioral["Behavioral Level\nAdaptive actions"]
+    end
+
+    RM --> Neural
+    AP --> Neural
+    Neural --> Implications
+    Cognitive --> Implications
+    Behavioral --> Implications
+
+    %% Implications
+    Implications["Implications\n- AI Consciousness\n- Neuropsychiatric Disorders\n- Adaptive Cognitive Architectures"]
+```
+
+Diagram Explanation:
+
+1. **Philosophical Foundations**: Ground the model in phenomenology, process philosophy, enactivism, and pancomputationalism.
+2. **Core Components**:  
+   - **Reflective Manager (RM)** and **Automatic Processing (AP)** interact via bidirectional feedback loops.  
+3. **Fractal Metrics**:  
+   - \(D_B\) (fractal dimension), \(H\) (Hurst exponent), and \(S_{MSE}\) (multiscale entropy) quantify self-similarity and complexity.  
+4. **Stochastic Processes**:  
+   - Lévy jumps and noise drive sudden cognitive shifts and variability.  
+5. **External Inputs**:  
+   - Environmental/social stimuli (\(E\)) modulate RM and AP.  
+6. **Multiscale Integration**:  
+   - Fractal recursion operates across neural, cognitive, and behavioral levels.  
+7. **Implications**:  
+   - Applications in AI, neuropsychiatry, and adaptive systems.  
+
+This diagram captures the **recursive, fractal, and dynamic** nature of FBCM while highlighting its theoretical and empirical foundations. Let me know if you’d like to refine any elements!
+
+
+5. Conclusion & Next Steps
 
 This update ensures the Fractal-Based Consciousness Model (FBCM) is both theoretically robust and empirically testable by incorporating multiscale entropy, fractal complexity, and refined stochastic regulation.
 
@@ -95,6 +159,4 @@ Test this revised formulation in numerical simulations.
 Design EEG/fMRI studies to validate the model’s entropy and fractal predictions.
 
 Further refine RM-AP coupling with machine learning models.
-
-
 
