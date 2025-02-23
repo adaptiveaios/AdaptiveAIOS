@@ -166,8 +166,8 @@ This update ensures the Fractal-Based Consciousness Model (FBCM) is both theoret
 🚀 **Next Steps:**
 
 - Simplify the Model: Reduce free parameters and focus on core mechanisms (e.g., isolate Lévy effects in a minimal model). Use Bayesian methods to constrain parameters with empirical priors.
-- Clarify Fractal Dynamics: Explicitly define how DRDR​ and HH are computed from neural/cognitive data and integrated into the equations.
-- Address Embodiment: Incorporate enactivist principles by modeling environmental coupling (e.g., sensorimotor loops) rather than treating external inputs (EnEn​) as passive perturbations.
+- Clarify Fractal Dynamics: Explicitly define how $D_R$ and $(H\)$ are computed from neural/cognitive data and integrated into the equations.
+- Address Embodiment: Incorporate enactivist principles by modeling environmental coupling (e.g., sensorimotor loops) rather than treating external inputs $(E_n)$ as passive perturbations.
 - Phenomenological Bridging: Partner with experimentalists to link fractal metrics to first-person reports (e.g., via mindfulness studies or psychopathology).
 - Benchmark Against Alternatives: Compare FBCM’s predictions with those of GWT, Integrated Information Theory (IIT), or Predictive Processing in specific paradigms (e.g., bistable perception).
 - Test this revised formulation in numerical simulations, comparing regimes dominated by Lévy vs. Gaussian processes.
