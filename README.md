@@ -21,7 +21,7 @@ Z_{n+1} = \gamma_{RM} \tanh \left( Z_n^2 + \mu M_n + A_n + D_R \right) + \gamma_
 $$
 
 where:
-- $(Z_n = R_n + i A_n\)$: Combined cognitive state (Reflective Manager \( R_n \) + Automatic Processing \( A_n \)).
+- $(Z_n = R_n + i A_n\)$: Combined cognitive state (Reflective Manager $( R_n \)$ + Automatic Processing $( A_n \)$.
 - $(H_n = \frac{\log(R_n + A_n)}{\log(\Delta t)}\)$: Hurst exponent (quantifies cognitive predictability & structure).
 - $(D_B\)$: Box-counting fractal dimension (captures phase shifts in cognition).
 - $(D_R\)$: Reflective fractal dimension, representing **the complexity of RM cognitive structures**.
