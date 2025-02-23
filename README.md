@@ -1,4 +1,3 @@
-**Title:**
 **Fractal-Based Consciousness Model (FBCM): A Unified Recursive Framework for Cognitive Dynamics, Self-Organization, and Bifurcation Events**
 
 ---
@@ -32,9 +31,9 @@ where:
 - $(\sigma \xi_n\)$: Stochastic noise component.
 
 This modification:
-✔ **Explicitly integrates memory effects** via **\( \mu M_n \)**.  
+✔ **Explicitly integrates memory effects** via $( \mu M_n \)$.  
 ✔ **Unifies the stochastic process** into a single component.  
-✔ **Introduces \(D_R\) to capture cognitive fractal complexity** dynamically.  
+✔ **Introduces $(D_R\)$ to capture cognitive fractal complexity** dynamically.  
 ✔ **Ensures that transitions between states are influenced by real-world metrics** like entropy and fractal dimensionality.
 
 ---
@@ -57,7 +56,7 @@ where:
 - $( D_R \)$ appears in **both RM and AP equations**, ensuring that fractal cognitive complexity is **dynamically updated**.
 
 This ensures:
-✔ **That RM disengagement is mathematically modeled** as a shift in \( \eta \).  
+✔ **That RM disengagement is mathematically modeled** as a shift in $( \eta \)$.  
 ✔ **That stochastic effects are **now regulated dynamically**, avoiding redundant noise terms.  
 ✔ **That transitions are smooth and continuous**, aligning with **self-organized criticality in cognition**.
 
@@ -75,14 +74,27 @@ The model predicts **specific, falsifiable neural and behavioral outcomes**, mea
 
 Experimental validation will involve **EEG, fMRI, and behavioral reaction-time experiments**.
 
----
 
-**3. Conclusion & Next Steps**
+3. Visualization of Recursive Feedback Dynamics
 
-This update ensures the Fractal-Based Consciousness Model (FBCM) is both **theoretically robust and empirically testable** by incorporating **multiscale entropy, fractal complexity, and refined stochastic regulation**. 
+Below is a graph representing the recursive cognitive dynamics of RM and AP over time:
 
-🚀 **Next Steps:**
-1. **Test this revised formulation in numerical simulations.**  
-2. **Design EEG/fMRI studies to validate the model’s entropy and fractal predictions.**  
-3. **Further refine RM-AP coupling with machine learning models.**
+
+![Alt Text](https://github.com/user-attachments/assets/6120bd76-3776-4a5d-b27a-1994b6129683)
+
+This graph illustrates how the Reflective Manager (R) and Automatic Processing (A) evolve dynamically, responding to environmental inputs and internal cognitive feedback.
+
+4. Conclusion & Next Steps
+
+This update ensures the Fractal-Based Consciousness Model (FBCM) is both theoretically robust and empirically testable by incorporating multiscale entropy, fractal complexity, and refined stochastic regulation.
+
+🚀 Next Steps:
+
+Test this revised formulation in numerical simulations.
+
+Design EEG/fMRI studies to validate the model’s entropy and fractal predictions.
+
+Further refine RM-AP coupling with machine learning models.
+
+
 
