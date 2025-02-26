@@ -297,8 +297,38 @@ Future work will focus on:
 ---
 
 **References**  
-*(A comprehensive list of references from foundational texts by Mandelbrot, Pribram, Grossberg, and recent empirical studies on neural dynamics and fractal analysis would be included here.)*
+Fractal Structure and Dynamics in the Brain:
 
+    The Fractal Brain: Scale-Invariance in Structure and Dynamics
+    This review explores how fractal structures and scale-free dynamics are fundamental to brain function, linking observations across different organizational levels.
+    pmc.ncbi.nlm.nih.gov
+
+Dual-Process Theory and Neural Correlates:
+
+    Exploring Dual Process Theory: The Two Systems
+    This article delves into the dual-process theory, distinguishing between fast, automatic processing (Type 1) and slow, reflective processing (Type 2), and discusses their implications for decision-making.
+    structural-learning.com
+    Dual-Process Theory of Thought and Inhibitory Control: An ALE Meta-Analysis
+    This meta-analysis investigates the neural foundations of dual-process theory, identifying brain regions associated with both automatic and controlled processing.
+    pmc.ncbi.nlm.nih.gov
+
+Neural Networks and Time Perception:
+
+    Neural Networks for Time Perception and Working Memory
+    This study evaluates the relationship between time perception and working memory, providing insights into the neural underpinnings of temporal processing.
+    frontiersin.org
+
+Fractal Neural Networks and Consciousness:
+
+    Introduction to the Fractality Principle of Consciousness and the Recurrent Fractal Neural Network
+    This paper introduces the concept of fractal neural networks and discusses their potential role in continuous information transformation and consciousness.
+    pmc.ncbi.nlm.nih.gov
+
+Brain Criticality and Fractal Dynamics:
+
+    Brain: The Role of Criticality, Fractality, and the Darwinian Process
+    This article explores how the brain operates near a critical state, utilizing fractal-like neural networks to optimize memory storage and adaptability.
+    preprints.org
 ---
 
 This revised paper now integrates the mapping of RM and automatic processing to known brain structures and oscillatory dynamics, reinforcing the biological plausibility of the model while retaining its core insights on fractal propagation and dynamic routing as the basis for consciousness.
