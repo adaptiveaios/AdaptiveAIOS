@@ -159,9 +159,155 @@ This graph illustrates how the Reflective Manager (R) and Automatic Processing (
 
 ---
 
+Below is the revised paper draft with a new section that integrates the mapping of the Reflective Manager (RM) and automatic processing onto known brain structures and neural oscillatory dynamics.
+
+---############# UPDATE !!! ##################
+
+# Fractal Propagation and Dynamic Routing as the Basis of Conscious Experience  
+## Integrating Time Perception and Memory Encoding with Neurobiological Anchors
+
+**Abstract**  
+We propose a unified framework in which fractal propagation dynamics underlie both the subjective sensation of time and the encoding of memories. In our model, neurons function as dynamic computing relays whose outputs depend on precise spatiotemporal “trigger flows” across dendritic compartments. These flows are modulated by factors such as voltage intensity, calcium channel dynamics, and neuromodulatory signals. A key component—the Reflective Manager (RM)—selectively directs attention to reinforce specific propagation paths, facilitating synaptic plasticity and memory stabilization. External sensory inputs calibrate these dynamics, while internal constraints (including metabolic limits and heat dissipation) regulate the balance between divergent, exploratory activity and convergent stabilization. We discuss how this framework aligns with dual-process theories by mapping RM (reflective, controlled processing) onto regions such as the dorsolateral prefrontal and parietal cortices and automatic processing onto medial prefrontal and anterior cingulate regions. This unified approach provides testable predictions that link fractal metrics (e.g., Hurst exponent, box-counting dimension, and multiscale entropy) with cognitive phenomena such as time distortions and memory fragmentation, with applications spanning neuropsychiatry and AI.
+
+---
+
+## 1. Introduction
+
+Traditional models treat time perception and memory as separate processes—time as an external parameter and memory as a static repository of information. However, subjective experience reveals that time and memory are deeply intertwined, emerging from dynamic, self-organizing neural processes. Here, we extend the Fractal-Based Consciousness Model (FBCM) by proposing that:
+
+- **Fractal neural propagation** generates the dynamic sensation of time.
+- **Memory encoding** occurs when specific propagation paths are stabilized via synaptic plasticity.
+- The **Reflective Manager (RM)** selectively modulates these propagation patterns, linking focused attention with memory retention.
+
+This framework not only explains phenomena such as time distortions during isolation and the vivid replay of memories but also grounds these emergent properties in known neurobiological structures.
+
+---
+
+## 2. Theoretical Foundations
+
+### 2.1 Fractal Propagation in Neural Networks
+
+Empirical studies using EEG and fMRI reveal that neural activity exhibits fractal (self-similar) patterns across multiple scales. This fractal organization facilitates recursive propagation, where similar activation sequences recur across local circuits and larger networks. Such dynamics provide a natural mechanism for integrating temporal information and forming continuous, yet flexible, cognitive states.
+
+### 2.2 Dynamic Routing and Neuronal Relay Functions
+
+Recent research indicates that biological neurons operate not only as summing units but also as specialized relays. Their outputs depend on the precise spatiotemporal pattern of inputs received by distinct dendritic compartments. This connector-dependent processing implies that only specific trigger flows will produce particular outputs, supporting the idea of dynamic routing in neural networks.
+
+### 2.3 Integration of Time Perception and Memory
+
+In our framework, subjective time perception emerges from the temporal structure of fractal propagation. External sensory inputs initiate cascades of activity that, when modulated by internal dynamics, produce the emergent rhythm of time. Simultaneously, if a propagation pattern is repeatedly activated—especially under focused RM modulation—it becomes stabilized through synaptic plasticity, effectively encoding a memory trace.
+
+---
+
+## 3. Mapping RM and Automatic Processing to Brain Structures
+
+A crucial aspect of our model is linking its abstract components to concrete neurobiological substrates. Dual-process theories in cognitive neuroscience distinguish between:
+
+- **Controlled (System 2) Processing:**  
+  This is associated with deliberate, reflective thought. Neuroimaging studies consistently implicate the dorsolateral prefrontal cortex (DLPFC), parietal cortex, and anterior cingulate cortex (ACC) in these functions. We map the **Reflective Manager (RM)**—which directs focused attention and modulates propagation dynamics—onto these structures. RM’s role in selectively amplifying certain propagation paths aligns with the DLPFC’s involvement in executive control and the ACC’s role in conflict monitoring.
+
+- **Automatic (System 1) Processing:**  
+  Fast, intuitive responses are linked to regions such as the medial prefrontal cortex (mPFC), parts of the ACC, and the insular cortex. These areas support rapid, habitual processing. In our model, automatic processing corresponds to the baseline propagation of activity that operates without deliberate modulation. Fast beta waves (associated with rapid, automatic processing) further support this mapping.
+
+This integration not only anchors the model in established neuroscience but also provides a basis for understanding how oscillatory dynamics (e.g., theta/alpha rhythms for reflective, slower processes versus beta waves for automatic, faster processes) may interact with fractal propagation to shape both time perception and memory formation.
+
+---
+
+## 4. Mathematical Formalism and Model Description
+
+### 4.1 Model Overview
+
+The cognitive state at time step $( n \)$ is represented by a complex variable $( Z_n \)$ (capturing reflective and automatic components). The evolution of this state is governed by:
+
+$$
+Z_{n+1} = \gamma_{\text{RM}} \, \tanh\Big(\mathrm{softplus}(Z_n) + \mu M_n + A_n + D_R\Big) + \gamma_{\text{AP}}\, Z_n + \lambda E_n + \beta_{\text{LL}}\, \mathrm{Lévy}_n + \sigma\, \xi_n.
+$$
+
+**Term Explanations:**
+
+- **$( Z_n \)$ and $( Z_{n+1} \)$:**  
+  Represent the neural state at successive time points, embodying the fractal propagation of activity.
+  
+- **$( \gamma_{\text{RM}} \, \tanh(\cdot) \)$:**  
+  Models the modulatory influence of the Reflective Manager. Here,  
+  - $( \mathrm{softplus}(Z_n) \)$ ensures smooth nonlinearity,  
+  - $( \mu M_n \)$ incorporates memory effects,  
+  - $( A_n \)$ reflects automatic processing, and  
+  - $( D_R \)$ quantifies the fractal dimension of the propagation pattern.
+  
+- **$( \gamma_{\text{AP}} Z_n \)$:**  
+  Propagates the state through automatic processing pathways.
+  
+- **$( \lambda E_n \)$:**  
+  Introduces external sensory inputs for calibration.
+  
+- **$( \beta_{\text{LL}}\, \mathrm{Lévy}_n \) and \( \sigma\, \xi_n \)$:**  
+  Represent stochastic influences—rare high-impact events and routine fluctuations, respectively.
+  
+Additional terms may be integrated to account for neurobiological factors (e.g., voltage intensity and calcium channel activity) that further modulate propagation dynamics.
+
+### 4.2 Biological Modulation
+
+Biological constraints, such as heat dissipation and metabolic rates, naturally limit the speed of propagation. Variations in these factors (e.g., during stress or isolation) can alter the effective propagation speed, leading to subjective time distortions. The RM’s modulation (mapped onto DLPFC and ACC activity) further influences which propagation paths become stabilized as memories.
+
+---
+
+## 5. Empirical Predictions and Applications
+
+### 5.1 Testable Predictions
+
+- **Neuroimaging Correlations:**  
+  Fractal metrics (Hurst exponent, box-counting dimension, multiscale entropy) should correlate with RM-associated brain regions (DLPFC, parietal cortex) and with behavioral measures of time perception and memory performance.
+  
+- **Metabolic Modulation:**  
+  Variations in metabolic state (measured via thermal imaging or PET scans) should correlate with changes in propagation speed and subjective time perception.
+  
+- **Dynamic Routing Verification:**  
+  Electrophysiological recordings should reveal that specific dendritic connector activations (and related calcium transients) are predictive of stable memory traces and the selective amplification of certain propagation paths.
+
+### 5.2 Applications
+
+- **Neuropsychiatry:**  
+  Understanding disruptions in propagation dynamics may inform treatments for disorders like ADHD, PTSD, and memory-related disorders.
+  
+- **Artificial Intelligence:**  
+  AI architectures inspired by these principles could move beyond static weight-based learning to incorporate dynamic routing and fractal propagation, potentially leading to more adaptive and context-sensitive systems.
+
+---
+
+## 6. Discussion
+
+The presented framework unifies time perception and memory formation through fractal propagation and dynamic routing in neural networks. By mapping the abstract components—such as the Reflective Manager and automatic processing—to specific brain structures and oscillatory patterns, we offer a model that is both conceptually rich and empirically testable. This approach challenges traditional static models and provides new insights into the dynamic, self-organizing nature of conscious experience.
+
+---
+
+## 7. Conclusion
+
+We have introduced a model where fractal propagation and dynamic routing underlie both the subjective perception of time and the encoding of memories. Key to this framework is the Reflective Manager, which—mapped onto known brain structures like the DLPFC and ACC—selectively modulates neural propagation, leading to stabilized memory traces and a coherent temporal experience. External sensory inputs calibrate these processes, while biological constraints such as metabolic rate further modulate the dynamics. This unified model not only advances our theoretical understanding of consciousness but also opens promising avenues for practical applications in both neuroscience and artificial intelligence.
+
+---
+
+## 8. Future Directions
+
+Future work will focus on:
+- **Empirical Validation:** Designing experiments to measure fractal propagation metrics, RM activation, and biochemical markers in relation to time perception and memory formation.
+- **Mathematical Refinement:** Integrating additional neurobiological details into the recursive equations, particularly regarding voltage and calcium channel modulation.
+- **Interdisciplinary Applications:** Applying these insights to develop neuromorphic AI systems and novel neuropsychiatric interventions.
+
+---
+
+**References**  
+*(A comprehensive list of references from foundational texts by Mandelbrot, Pribram, Grossberg, and recent empirical studies on neural dynamics and fractal analysis would be included here.)*
+
+---
+
+This revised paper now integrates the mapping of RM and automatic processing to known brain structures and oscillatory dynamics, reinforcing the biological plausibility of the model while retaining its core insights on fractal propagation and dynamic routing as the basis for consciousness.
+
 **5. Conclusion & Next Steps**
 
 This update ensures the Fractal-Based Consciousness Model (FBCM) is both theoretically robust and empirically testable by incorporating multiscale entropy, fractal complexity, and refined stochastic regulation with distinct Lévy and Gaussian processes, as well as by stabilizing the nonlinearity through a softplus transformation.
+
+
 
 🚀 **Next Steps:**
 
