@@ -39,7 +39,7 @@ $$
 Where:  
 - $(C_s(t)\$ is the overall “social consciousness” or homeostatic state at time \(t\).  
 - $(S_{MSE}(t)\$ represents the multiscale entropy of socio‑economic data (e.g., diversity of opinions, economic indicators).  
-- **PLV(t) denotes the phase‑locking value, reflecting synchrony in social communications and public engagement.  
+- $PLV(t)$ denotes the phase‑locking value, reflecting synchrony in social communications and public engagement.  
 - $(\alpha\$ and $(\tau\$ capture the strength and delay of feedback within the social network (e.g., the lag between policy implementation and public response).  
 - $(H(t)\$ is the Hurst exponent, indicating the predictability and long‑range correlations in social dynamics.  
 - $(\beta_L\, L(t)\$ models sudden “Lévy jumps” in social behavior—rapid shifts triggered by crises or major events.  
